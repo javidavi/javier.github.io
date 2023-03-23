@@ -1,0 +1,104 @@
+
+body { 
+    font-family: 'Courier New', Courier, monospace;
+    color: #141311;
+    background: linear-gradient(90deg,#b48204,#7a652e,#4e4a3f);
+    font-size: 26px;
+}
+
+.caja1 {
+    width: 50%;
+    height: 50%;
+    font-size: 1cm;
+    padding-left: 5%;
+    background-color: #61573f;
+    color: #dbdad8;
+    border: 4px groove black;
+    border-radius: 9%;
+    margin: 50px 50px 50px 50px;
+}
+
+.img1 {
+    width: 350px;
+    height: 350px;
+    padding: 5% 10% 5% 70%;
+    background-color: #61573f;
+    border-radius: 25%;
+    border: 4px groove black;
+}
+
+.menu { 
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    background: #61573f;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: rgb(228, 189, 81);
+}
+
+header {
+    padding: 15px;
+}
+
+section {
+    padding: 55px;
+}
+
+article {
+    width: 5px;
+    height: 5px;
+    padding: 15px;
+    margin-top: 0%;
+    margin-bottom: 18%;
+    margin-left: 5%;
+}
+
+aside {
+    width: 70%;
+    height: 150%;
+    padding: 15px;
+    margin-top: 0%;
+    margin-bottom: 20%;
+    margin-left: 5%;
+}
+
+progress { 
+    padding: 20px;
+    margin-left: 8px;
+}
+
+footer {
+    padding-left: 50%;
+    width: auto;
+    height: auto;
+    color: #0a0905;
+    font-size: 25px;
+}
+
+footer i {
+    font-size: 80px;
+    color: #050504;
+    position: relative;
+}
+
+footer i:hover{
+    background-color: rgb(228, 189, 81);
+}
+
